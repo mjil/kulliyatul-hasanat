@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kulliyatul Hasanat</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Kulliyatul Hasanat</h1>
+        <button id="dark-mode-toggle">🌙</button>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -25,8 +28,8 @@
     
     <section id="home">
         <h2>Welcome to Kulliyatul Hasanat</h2>
-        <p>Empowering individuals through skill-based education in Coding, Quranic Studies, Arabic, Urdu, Handicrafts, and Hijama.</p>
-        <img src="images/training-center.jpg" alt="Training Center">
+        <p>Empowering individuals through skill-based education in Computing, AI, Web Development, Arabic, Urdu, and Handicrafts.</p>
+        <img src="images/featured-image.png" alt="Computer, Robot, Books, Tailor Shop, Handicrafts">
     </section>
 
     <section id="about">
@@ -36,60 +39,33 @@
 
     <section id="courses">
         <h2>Our Courses</h2>
-        <ul>
-            <li><strong>Computer Training (Coding & AI)</strong>: Learn programming, web development, and AI applications.</li>
-            <li><strong>Quranic Studies (Tajweed & Tafsir)</strong>: Master the proper recitation of the Quran and understand its interpretation.</li>
-            <li><strong>Arabic Language (Conversational & Quranic)</strong>: Develop fluency in Arabic for communication and religious studies.</li>
-            <li><strong>Urdu Language (Poetry & Literature)</strong>: Explore the beauty of Urdu poetry and classical literature.</li>
-            <li><strong>Handicrafts & Tailoring</strong>: Gain skills in sewing, embroidery, and handmade crafts.</li>
-            <li><strong>Hijama (Cupping Therapy)</strong>: Learn the techniques and benefits of traditional Islamic medicine.</li>
-        </ul>
-    </section>
-
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <img src="images/computer-class.jpg" alt="Computer Training">
-        <img src="images/quran-class.jpg" alt="Quranic Studies">
-        <img src="images/handicraft.jpg" alt="Handicrafts Training">
-    </section>
-
-    <section id="blog">
-        <h2>Blog</h2>
-        <article>
-            <h3>Importance of Vocational Training</h3>
-            <p>Vocational training equips students with practical skills to enhance employability and career growth.</p>
-            <a href="#">Read more</a>
-        </article>
-    </section>
-
-    <section id="testimonials">
-        <h2>Testimonials</h2>
-        <p>"The AI course helped me secure a tech job!" - Ahmed R.</p>
-        <p>"Learning Tajweed was life-changing." - Fatima S.</p>
-    </section>
-
-    <section id="events">
-        <h2>Upcoming Events</h2>
-        <ul>
-            <li><strong>AI & Coding Workshop</strong> - March 10, 2025</li>
-            <li><strong>Quran Recitation Competition</strong> - April 15, 2025</li>
-            <li><strong>Handicrafts Exhibition</strong> - May 20, 2025</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p><strong>Email:</strong> info@hasanat.edu</p>
-        <p><strong>Phone:</strong> +91 XXXXXXXXXX</p>
-        <form id="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+        <div class="grid-container">
+            <div class="course-card">
+                <img src="images/computer-ai.jpg" alt="AI Generated Computer Training">
+                <h3>Computing (AI, Coding, Web Development)</h3>
+                <p>Learn programming, artificial intelligence, and web development.</p>
+            </div>
+            <div class="course-card">
+                <img src="images/arabic-ai.jpg" alt="AI Generated Arabic Language">
+                <h3>Arabic (Conversational, Quranic)</h3>
+                <p>Develop fluency in Arabic for communication and professional use.</p>
+            </div>
+            <div class="course-card">
+                <img src="images/urdu-ai.jpg" alt="AI Generated Urdu Language">
+                <h3>Urdu (Poetry)</h3>
+                <p>Explore the beauty of Urdu poetry and its historical significance.</p>
+            </div>
+            <div class="course-card">
+                <img src="images/handicrafts-ai.jpg" alt="AI Generated Handicrafts">
+                <h3>Handicrafts & Tailoring</h3>
+                <p>Gain skills in sewing, embroidery, and handmade crafts.</p>
+            </div>
+            <div class="course-card">
+                <img src="images/hijama-ai.jpg" alt="AI Generated Hijama Therapy">
+                <h3>Hijamah Therapy</h3>
+                <p>Learn the techniques and benefits of traditional cupping therapy.</p>
+            </div>
+        </div>
     </section>
 
     <footer>

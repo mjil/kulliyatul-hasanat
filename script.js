@@ -1,8 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const form = document.getElementById("contact-form");
-    form.addEventListener("submit", function (event) {
-        event.preventDefault();
-        alert("Thank you! Your message has been sent.");
-        form.reset();
+    const darkModeToggle = document.getElementById("dark-mode-toggle");
+    darkModeToggle.addEventListener("click", () => {
+        document.body.classList.toggle("dark-mode");
     });
 });
